@@ -1,0 +1,5 @@
+config.yaml
+.research-wiki/
+outputs/
+*.secret*
+*.token*

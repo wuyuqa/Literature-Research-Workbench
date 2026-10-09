@@ -1,0 +1,12 @@
+{
+  "name": "personal-research-workbench",
+  "plugins": [
+    {
+      "source": { "path": "./" },
+      "interface": {
+        "displayName": "Literature Research Workbench",
+        "shortDescription": "文献调研、Idea 架构、LaTeX 写作、科研绘图与汇报"
+      }
+    }
+  ]
+}

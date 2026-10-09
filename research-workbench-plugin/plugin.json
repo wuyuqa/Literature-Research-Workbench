@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "literature-research-workbench",
+  "version": "0.1.0",
+  "description": "中文科研工作台：文献调研、知识库 Wiki、Idea 架构、LaTeX 写作、科研绘图与汇报。插件只设计实验，不执行实验。",
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md"
+    }
+  }
+}

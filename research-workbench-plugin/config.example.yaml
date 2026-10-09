@@ -1,0 +1,22 @@
+# 复制为 config.yaml 后按本机环境填写。config.yaml 已被 .gitignore 忽略。
+vault_root: "E:/obsidian_note/文献管理库/文献知识库"
+wiki_root: "./.research-wiki"
+output_root: "./outputs"
+
+# Zotero 与邮件由已连接的插件/应用负责授权；不要把 token 或密码写入本文件。
+zotero:
+  enabled: true
+  collection: ""
+
+undermind:
+  enabled: true
+
+weekly_digest:
+  enabled: false
+  days: ["Monday"]
+  papers: 5
+  # 163 邮箱配置请在连接器或系统凭据中完成，不写入 Git。
+
+research_scope:
+  fields: ["network security", "fuzzing"]
+  languages: ["zh", "en"]

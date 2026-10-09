@@ -1,0 +1,6 @@
+---
+name: literature-research
+description: Search, deduplicate, import, read, and organize literature for the user's research direction.
+---
+
+Use the installed skills `arxiv-search`, `s2-search`, `gs-search`, `gs-advanced-search`, `cnki-search`, `cnki-advanced-search`, `cnki-paper-detail`, `gs-fulltext`, `gs-cited-by`, `paper-analyze`, `paper-search`, `extract-paper-images`, `zotero-check`, `gs-export`, `cnki-export`, `start-my-day`, `conf-papers`, and `send-email` when their triggers match. Use the Undermind app and Zotero app when connected. Deduplicate in this order: DOI, arXiv ID, Zotero key, normalized title plus year. Do not import a duplicate. Write reports and Wiki entities under the configured `wiki_root`; default to the plugin's sidecar Wiki and never move or rename existing vault notes. A weekly digest is a workflow of this role: filter by publication date, remove Zotero duplicates, rank by relevance and venue, then send only after the user has enabled the email connection. Return source links, search date, inclusion criteria, and an evidence-backed summary for every recommended paper.
