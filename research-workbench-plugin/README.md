@@ -11,6 +11,7 @@ research-workbench-plugin/
 ├── plugin.json
 ├── .codex-plugin/plugin.json
 ├── config.example.yaml
+├── DEPENDENCIES.md
 ├── skills/
 │   ├── setup/
 │   ├── research-orchestrator/
@@ -33,7 +34,14 @@ research-workbench-plugin/
 
 ## 安装到 Codex
 
-目录中附带了 `marketplace.json`，可将它作为本地 marketplace 导入，然后在 Codex 的 Plugins / Sources 中安装 `literature-research-workbench`。也可以使用 Codex CLI 的本地 marketplace 命令（不同版本命令入口可能显示为 `codex plugin marketplace add`），指向该 `marketplace.json`，再从 Plugins Directory 安装。Codex 的本地 marketplace 机制和插件安装入口可能随桌面版本变化；如果 CLI 不接受文件路径，直接在 Plugins Directory 选择本地 marketplace 即可。
+仓库旁附带了 `research-workbench-marketplace/` wrapper，Codex 安装时使用它可以保持 canonical 插件目录干净。CLI 命令为：
+
+```powershell
+codex plugin marketplace add .\research-workbench-marketplace
+codex plugin add literature-research-workbench --marketplace personal-research-workbench
+```
+
+本机测试已完成：插件已安装并启用。桌面端没有自动显示时，重启 Codex 后再打开 Plugins Directory。
 
 安装后新建一个 Codex 对话，先运行 setup，再使用自然语言调用，例如：
 
@@ -60,6 +68,8 @@ research-workbench-plugin/
 - Frontend Slides：`zarazhangrui/frontend-slides`，用于 HTML 汇报和演示风格。
 
 这些仓库可能有自己的安装方式和版本变化。插件只引用稳定的 skill 名称和工作边界，不把外部仓库的密钥、缓存或私有配置提交进来。
+
+详细的上游版本、许可证、可用性和实验执行边界见 [DEPENDENCIES.md](DEPENDENCIES.md)。
 
 ## Git 提交
 

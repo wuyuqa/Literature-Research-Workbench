@@ -5,6 +5,14 @@
   "description": "中文科研工作台：文献调研、知识库 Wiki、Idea 架构、LaTeX 写作、科研绘图与汇报。插件只设计实验，不执行实验。",
   "extensions": {
     "com.openai": {
+      "interface": {
+        "displayName": "Literature Research Workbench",
+        "shortDescription": "文献调研、Idea架构、LaTeX写作",
+        "longDescription": "面向网络安全与模糊测试研究的中文科研工作台，支持文献检索、Zotero 管理、研究 Wiki、Idea 架构、ARIS LaTeX 写作和科研汇报。",
+        "developerName": "Personal Research Workbench",
+        "category": "Research",
+        "capabilities": ["Read", "Write"]
+      },
       "onboardingSkill": "./skills/setup/SKILL.md"
     }
   }

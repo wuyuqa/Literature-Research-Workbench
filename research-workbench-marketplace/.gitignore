@@ -1,0 +1,3 @@
+# The marketplace wrapper uses a local copy only for Codex installation tests.
+# The canonical source of truth is ../research-workbench-plugin.
+plugins/
