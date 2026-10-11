@@ -21,7 +21,12 @@ research-workbench-plugin/
 ├── install.ps1
 ├── DEPENDENCIES.md
 ├── skills/
-│   ├── vendor/                    # 已随插件携带的本地/ARS/ARIS SKILL.md
+│   ├── vendor/                    # 已随插件携带的必需 SKILL.md 和资源
+│   │   ├── required/               # LaTeX、图、PPT、Zotero 等本插件必需内容
+│   │   ├── local-codex/            # 文献检索和本地知识库技能
+│   │   ├── local-agents/
+│   │   ├── ars/
+│   │   └── aris/
 │   ├── setup/
 │   ├── research-orchestrator/
 │   ├── literature-research/
