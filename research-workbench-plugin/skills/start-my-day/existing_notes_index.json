@@ -1,0 +1,83 @@
+{
+  "notes": [
+    {
+      "path": "20_Research/Papers/具身智能前沿/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI.md",
+      "filename": "A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI.md",
+      "short_name": "A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI",
+      "path_str": "20_Research\\Papers\\具身智能前沿\\A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI.md",
+      "title": "A Survey on Vision-Language-Action Models for Embodied AI",
+      "tags": [
+        "论文笔记",
+        "具身智能",
+        "VLA",
+        "Vision-Language-Action",
+        "机器人学习",
+        "综述",
+        "IEEE-TNNLS"
+      ],
+      "title_keywords": [],
+      "tag_keywords": [
+        "论文笔记",
+        "具身智能",
+        "VLA",
+        "机器人学习",
+        "IEEE-TNNLS"
+      ]
+    },
+    {
+      "path": "20_Research/Papers/具身智能前沿/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI/images/index.md",
+      "filename": "index.md",
+      "short_name": "index",
+      "path_str": "20_Research\\Papers\\具身智能前沿\\A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI\\images\\index.md",
+      "title": "index",
+      "tags": [],
+      "title_keywords": [],
+      "tag_keywords": []
+    },
+    {
+      "path": "20_Research/Papers/模糊测试技术/Batch_Me_If_You_Can_Coverage-guided_RPKI_Fuzzing_at_Scale.md",
+      "filename": "Batch_Me_If_You_Can_Coverage-guided_RPKI_Fuzzing_at_Scale.md",
+      "short_name": "Batch_Me_If_You_Can_Coverage-guided_RPKI_Fuzzing_at_Scale",
+      "path_str": "20_Research\\Papers\\模糊测试技术\\Batch_Me_If_You_Can_Coverage-guided_RPKI_Fuzzing_at_Scale.md",
+      "title": "Batch Me If You Can: Coverage-guided RPKI Fuzzing at Scale",
+      "tags": [
+        "论文笔记",
+        "模糊测试技术",
+        "协议模糊测试",
+        "覆盖引导模糊测试",
+        "网络安全",
+        "CVE"
+      ],
+      "title_keywords": [
+        "Batch Me If You Can"
+      ],
+      "tag_keywords": [
+        "论文笔记",
+        "模糊测试技术",
+        "协议模糊测试",
+        "覆盖引导模糊测试",
+        "网络安全",
+        "CVE"
+      ]
+    },
+    {
+      "path": "20_Research/Papers/模糊测试技术/Batch_Me_If_You_Can_RPKI_Fuzzing/images/index.md",
+      "filename": "index.md",
+      "short_name": "index",
+      "path_str": "20_Research\\Papers\\模糊测试技术\\Batch_Me_If_You_Can_RPKI_Fuzzing\\images\\index.md",
+      "title": "index",
+      "tags": [],
+      "title_keywords": [],
+      "tag_keywords": []
+    }
+  ],
+  "keyword_to_notes": {
+    "index": [
+      "20_Research/Papers/模糊测试技术/Batch_Me_If_You_Can_RPKI_Fuzzing/images/index.md",
+      "20_Research/Papers/具身智能前沿/A_Survey_on_Vision-Language-Action_Models_for_Embodied_AI/images/index.md"
+    ],
+    "batch me if you can": [
+      "20_Research/Papers/模糊测试技术/Batch_Me_If_You_Can_Coverage-guided_RPKI_Fuzzing_at_Scale.md"
+    ]
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "filtered": [
+    {
+      "source": "gs",
+      "sources": [
+        "gs"
+      ],
+      "title": "UFG-AFLNET: A Greybox Fuzzing Framework with Fine-Grained State Modeling and Gradient-Guided Mutation for Network Protocols",
+      "authors": [
+        "G Xu",
+        "T Chen",
+        "G Xin",
+        "W Yu",
+        "H Bai"
+      ],
+      "abstract": "4 days ago - Greybox fuzzing framework with fine-grained state modeling and gradient-guided mutation for network protocol fuzzing",
+      "arxiv_id": "",
+      "doi": "",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11534354/",
+      "pdf_url": "",
+      "published_date": "2026-05-23",
+      "year": 2026,
+      "venue": "IEEE Transactions on Information Forensics and Security",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "categories": [],
+      "scores": {
+        "relevance": 1.4,
+        "recency": 1.0,
+        "popularity": 0.0,
+        "quality": 0.2,
+        "overall": 0.96
+      }
+    },
+    {
+      "source": "gs",
+      "sources": [
+        "gs"
+      ],
+      "title": "FuzzingBrain V2: A Multi-Agent LLM System for Automated Vulnerability Discovery and Reproduction",
+      "authors": [
+        "Z Sheng",
+        "Z Chen",
+        "Q Xu",
+        "K Zhu",
+        "J Huang"
+      ],
+      "abstract": "6 days ago - Multi-agent LLM system using OSS-Fuzz and libFuzzer for automated vulnerability discovery",
+      "arxiv_id": "2605.21779",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2605.21779",
+      "pdf_url": "https://arxiv.org/pdf/2605.21779",
+      "published_date": "2026-05-21",
+      "year": 2026,
+      "venue": "arXiv preprint arXiv:2605.21779",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "categories": [],
+      "scores": {
+        "relevance": 1.3,
+        "recency": 1.0,
+        "popularity": 0.0,
+        "quality": 0.2,
+        "overall": 0.9
+      }
+    },
+    {
+      "source": "gs",
+      "sources": [
+        "gs"
+      ],
+      "title": "Effective Python-frontend fuzzing for deep learning libraries with runtime coverage feedback",
+      "authors": [
+        "X Chen",
+        "N Cui",
+        "L Chen",
+        "G Shi",
+        "R You",
+        "Q Xu"
+      ],
+      "abstract": "8 days ago - Probe: coverage-guided fuzzing for Python-frontend deep learning libraries with runtime feedback",
+      "arxiv_id": "",
+      "doi": "",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950584926001849",
+      "pdf_url": "",
+      "published_date": "2026-05-19",
+      "year": 2026,
+      "venue": "Information and Software Technology",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "categories": [],
+      "scores": {
+        "relevance": 1.1,
+        "recency": 0.7,
+        "popularity": 0.0,
+        "quality": 0.0,
+        "overall": 0.73
+      }
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Batch Me If You Can: Coverage-guided RPKI Fuzzing at Scale",
+      "authors": [
+        "Haya Schulmann",
+        "Niklas Vogel"
+      ],
+      "abstract": "The Resource Public Key Infrastructure (RPKI) has become essential to secure inter-domain routing. Despite its critical role, RPKI software remains largely untested beyond shallow parsing. Existing fuzzers, like AFL++ or libFuzzer, do not work well for RPKI as they assume a single, self-contained input per execution, while RPKI repositories contain hundreds of interdependent cryptographically linked objects. Existing fuzzers fail to handle this complexity and lack the ability for precise coverage attribution in multi-object repositories, breaking feedback-based exploration and thereby missing most severe vulnerabilities in RPKI validation. In this paper, we overcome these limitations through novel fuzzing techniques, including continuous sampling and using functions as side-channels for per-object coverage attribution in large input repositories. We further show how parsing inputs to a labeled tree allows structural and semantic mutations while preserving cryptographic validity in mutated repositories. We implement our new techniques into a powerful fuzzing tool called CAT, combining non-sequential fuzzing with our template-agnostic ASN.1 mutation engine to achieve 66x throughput improvement over sequential fuzzing and exploring 24 - 47% more unique code paths compared to libFuzzer and previous work. Evaluating CAT on RPKI validators uncovered 21 previously unknown vulnerabilities with 8 CVEs already assigned (CVSS 7.5 - 9.8). These include a buffer overflow, Denial-of-Service (DoS), and exploitable repository-poisoning logic flaws. We open-source CAT to enable reproducibility, further research, and adaptation of our methods to other complex cryptography-based protocols such as DNSSEC and TLS.",
+      "arxiv_id": "2605.26651",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2605.26651",
+      "pdf_url": "https://arxiv.org/pdf/2605.26651v1",
+      "published_date": "2026-05-26",
+      "year": 2026,
+      "venue": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "categories": [
+        "cs.CR"
+      ],
+      "scores": {
+        "relevance": 0.8,
+        "recency": 1.0,
+        "popularity": 0.0,
+        "quality": 0.7,
+        "overall": 0.65
+      }
+    },
+    {
+      "source": "gs",
+      "sources": [
+        "gs"
+      ],
+      "title": "NeuroFuzz: AI-Augmented Hybrid Fuzzer for Energy-Efficient Vulnerability Discovery",
+      "authors": [
+        "T Anuganti",
+        "S Sankaran"
+      ],
+      "abstract": "4 days ago - Hybrid fuzzers combine fuzzing with symbolic execution to overcome coverage plateaus",
+      "arxiv_id": "",
+      "doi": "10.1145/3807501.3808239",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3807501.3808239",
+      "pdf_url": "",
+      "published_date": "2026-05-23",
+      "year": 2026,
+      "venue": "Workshop on Advances in Security Research, ACM",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "categories": [],
+      "scores": {
+        "relevance": 0.8,
+        "recency": 1.0,
+        "popularity": 0.0,
+        "quality": 0.0,
+        "overall": 0.58
+      }
+    },
+    {
+      "source": "gs",
+      "sources": [
+        "gs"
+      ],
+      "title": "DDYF: Differential Dolev-Yao Fuzzing of Cryptographic Protocols",
+      "authors": [
+        "T Gouville",
+        "L Hirschi",
+        "S Kremer"
+      ],
+      "abstract": "6 days ago - Differential DY Fuzzing of cryptographic protocols, addressing limitations of bit-level fuzzers",
+      "arxiv_id": "",
+      "doi": "",
+      "url": "https://eprint.iacr.org/2026/991",
+      "pdf_url": "",
+      "published_date": "2026-05-21",
+      "year": 2026,
+      "venue": "Cryptology ePrint Archive",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "categories": [],
+      "scores": {
+        "relevance": 0.8,
+        "recency": 1.0,
+        "popularity": 0.0,
+        "quality": 0.0,
+        "overall": 0.58
+      }
+    },
+    {
+      "source": "gs",
+      "sources": [
+        "gs"
+      ],
+      "title": "Fuzzing Microservice Resilience under Uncertainty with LLM-Guided Scenario Generation",
+      "authors": [
+        "F Xue",
+        "T Ying",
+        "P Hu",
+        "L Wang",
+        "Z Qing",
+        "T Ding"
+      ],
+      "abstract": "8 days ago - UncertainFuzz: system-level fuzzing using LLM to synthesize multi-stage uncertainty campaigns",
+      "arxiv_id": "",
+      "doi": "",
+      "url": "https://www.researchgate.net/publication/404940999",
+      "pdf_url": "",
+      "published_date": "2026-05-19",
+      "year": 2026,
+      "venue": "ResearchGate",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "categories": [],
+      "scores": {
+        "relevance": 0.8,
+        "recency": 0.7,
+        "popularity": 0.0,
+        "quality": 0.2,
+        "overall": 0.57
+      }
+    },
+    {
+      "source": "gs",
+      "sources": [
+        "gs"
+      ],
+      "title": "Automatically Fuzzing Routing Protocols",
+      "authors": [
+        "M Vivian",
+        "O Bonaventure"
+      ],
+      "abstract": "8 days ago - Generic fuzzing approach automatically predicting structure of routing packets",
+      "arxiv_id": "",
+      "doi": "",
+      "url": "https://dl.ifip.org/db/conf/networking/networking2026/1571262103.pdf",
+      "pdf_url": "https://dl.ifip.org/db/conf/networking/networking2026/1571262103.pdf",
+      "published_date": "2026-05-19",
+      "year": 2026,
+      "venue": "IFIP Networking",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "categories": [],
+      "scores": {
+        "relevance": 0.8,
+        "recency": 0.7,
+        "popularity": 0.0,
+        "quality": 0.2,
+        "overall": 0.57
+      }
+    },
+    {
+      "source": "gs",
+      "sources": [
+        "gs"
+      ],
+      "title": "Large language models-driven fuzzing: A systematic survey",
+      "authors": [
+        "Y Wan",
+        "M Huang",
+        "X Li",
+        "Y Nie",
+        "W Zhen"
+      ],
+      "abstract": "9 days ago - Comprehensive survey of LLM-driven fuzzing covering test case generation, seed mutation",
+      "arxiv_id": "",
+      "doi": "",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0952197626014090",
+      "pdf_url": "",
+      "published_date": "2026-05-18",
+      "year": 2026,
+      "venue": "Engineering Applications of Artificial Intelligence",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "categories": [],
+      "scores": {
+        "relevance": 0.8,
+        "recency": 0.7,
+        "popularity": 0.0,
+        "quality": 0.0,
+        "overall": 0.55
+      }
+    },
+    {
+      "source": "arxiv",
+      "sources": [
+        "arxiv"
+      ],
+      "title": "SEC-bench Pro: Can Language Models Solve Long-Horizon Software Security Tasks?",
+      "authors": [
+        "Hwiwon Lee",
+        "Jiawei Liu",
+        "Dongjun Kim",
+        "Ziqi Zhang",
+        "Chunqiu Steven Xia",
+        "Lingming Zhang"
+      ],
+      "abstract": "Large language models (LLMs) now support automated software security tasks, including vulnerability discovery and proof-of-concept (PoC) generation. Existing benchmarks do not faithfully evaluate LLMs in real-world bug hunting scenarios because they rely on fuzzing harnesses, target-specific descriptions, or vulnerability-reproduction tasks. We present SEC-bench Pro, a benchmark for measuring agent bug hunting on critical, high-complexity software systems. This work discloses reports with concrete PoC inputs and links fixes into reproducible tasks through a three-phase pipeline for vulnerability collection, environment reconstruction, and oracle-based validation. We instantiate SEC-bench Pro with 183 validated vulnerabilities across V8 and SpiderMonkey, including a V8 subset with more than $1.5 million in cumulative Google Vulnerability Reward Program awards. These instances span memory-safety, sandbox, JIT, and race-condition bugs under browser-grade and runtime-grade execution conditions. Our evaluation shows that coding agents with frontier models remain below 40% success on both evaluated engines. The open-weight Kimi-K2.6 baseline reaches 11.7% on V8, while the strongest frontier configuration reaches 32.0% on V8 and 38.8% on SpiderMonkey. ClaudeCode and Codex solve complementary instance sets, and their two-agent union reaches 37.9% on V8 and 48.8% on SpiderMonkey. SEC-bench Pro provides robust environments for assessing LLM-based security agents and exposes limitations in long-horizon bug hunting tasks.",
+      "arxiv_id": "2605.26548",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2605.26548",
+      "pdf_url": "https://arxiv.org/pdf/2605.26548v1",
+      "published_date": "2026-05-26",
+      "year": 2026,
+      "venue": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 0.6,
+        "recency": 1.0,
+        "popularity": 0.0,
+        "quality": 0.4,
+        "overall": 0.5
+      }
+    }
+  ],
+  "skipped": [],
+  "stats": {
+    "input_count": 10,
+    "filtered_count": 10,
+    "skipped_count": 0,
+    "bbt_json_available": true,
+    "bbt_path": "E:\\obsidian_note\\文献管理库\\文献知识库\\better-bibtex\\导出的条目.json",
+    "zotero_total_items": 11
+  }
+}

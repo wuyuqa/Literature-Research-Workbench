@@ -1,0 +1,119 @@
+[
+  {
+    "title": "基于静态与动态分析的智能合约漏洞检测实证研究",
+    "authors": "祝语; 李珍; 张笑睿; 吴月明; 邹德清",
+    "journal": "软件学报",
+    "date": "2026-05-21",
+    "citations": "",
+    "downloads": "39",
+    "url": "https://kns.cnki.net/kcms2/article/abstract?v=niGKtOOGHVfpTkewnBp_7zNTdsweLu0pl9XARxwDBhVfnMC0dbsyukdPqGimpud7FLikE7qJRKKeC5EAk6aX5etWGJ3Jc_ICtg0pQdHILA73BGDDPORYqdFAeoLvFb9xtxwnvyyH75mUEtaycrsIpPhTyHbn2DWXj6yhDVaExvE5-41jN6QreQ==&uniplatform=NZKPT&language=CHS"
+  },
+  {
+    "title": "物联网通信协议安全漏洞检测方法",
+    "authors": "石琛琛",
+    "journal": "中国科技信息",
+    "date": "2026-05-15",
+    "citations": "",
+    "downloads": "34",
+    "url": "https://kns.cnki.net/kcms2/article/abstract?v=niGKtOOGHVfpTkewnBp_7zNTdsweLu0piEZJ2Wuqext-8hK04xCjEQ9SAa4YYMdIlbLKtJaRc_zD3J2L8Lb4iDcfox9RLZzLYnGrWv5O7h83C3FISloNGXwsQ0InWpnrbIOoF8MCIzuGV_5kEH9D-IrvOztSR2FtZu1uAvzUAJCS1kA6STk50g==&uniplatform=NZKPT&language=CHS"
+  },
+  {
+    "title": "ToxiHeap:LLM制导和毒性标记的JavaScript引擎模糊测试框架",
+    "authors": "沙乐天; 龙章伯; 丁加宇; 黄海平; 肖甫",
+    "journal": "软件学报",
+    "date": "2026-05-14",
+    "citations": "",
+    "downloads": "26",
+    "url": "https://kns.cnki.net/kcms2/article/abstract?v=niGKtOOGHVfJzMzNQygqsH-MD7CejXmD2Y25fGWnhSs1zKetiM5aDH2LpdhvzwOZmrhpnT6SUDtfnC-y-plf-XMRDSqDYqijl5qFwPKq8OcXdYtCzaaProk-wXxGaKXrSMmmQe3bYYpPnHlrYsOjgj-X2djP_xGcLIagXs1DyjcfWYhELpgpxg==&uniplatform=NZKPT&language=CHS"
+  },
+  {
+    "title": "一种程序状态感知增强的固件模糊测试方法",
+    "authors": "孔德宝; 耿洋洋; 魏超杰; 魏强",
+    "journal": "信息工程大学学报",
+    "date": "2026-04-28",
+    "citations": "",
+    "downloads": "13",
+    "url": "https://kns.cnki.net/kcms2/article/abstract?v=niGKtOOGHVdUhQ8VzwQuGnKkaMRU55eAc3Nw3LHQl0baJSn9Fs-7skV1ZBxucl0E09RnImMr4NBevKi4KDtZfNLReymmRsmXl74Dr_-e5zPJaYWQFDzBmapfvH_OK4UDcqA6en5jkeeBLfGXaYPPQT5zeP0iZvE4o76erJyCL-oQGTL1jWZrKg==&uniplatform=NZKPT&language=CHS"
+  },
+  {
+    "title": "TLS 1.3协议安全研究综述",
+    "authors": "柏军洋; 张宇; 张宾; 张伟哲",
+    "journal": "软件学报",
+    "date": "2026-04-10",
+    "citations": "",
+    "downloads": "132",
+    "url": "https://kns.cnki.net/kcms2/article/abstract?v=niGKtOOGHVcTUAYSezmv6eF2GEyAlgv7A2as7QmnU3fQbkGCrsqJ3DcptovYKf_Av5DsiZ6Qbzi9Jcqw8JTUE9T2octsus3T_11yZCDf4aeKWQqE9PzZaWSMiLQYEXlDV649jFI9pnY2Ts7VYQVlOAAw3FbXp9y2MgpxzeofZoTQnF9EjGCSlw==&uniplatform=NZKPT&language=CHS"
+  },
+  {
+    "title": "基于大语言模型的数据库管理系统模糊测试方法",
+    "authors": "张瑞宸; 张亚东; 兰文尉; 岳清; 王正武; 崔展齐",
+    "journal": "计算机研究与发展",
+    "date": "2026-04-10",
+    "citations": "",
+    "downloads": "495",
+    "url": "https://kns.cnki.net/kcms2/article/abstract?v=niGKtOOGHVfzzWchAE0eARqBSplWEYsVx65eXheXnuX0IHeP90Kfg1lRAa9-skR-GxrXqNYYcxfmzf4qqUV6JyVRwgG714CWcNJbLkwmnamLnXBee3QtnZJd9NKzrRAlv59n7eX8zWFeSkHUfYxLiF1-QwJGZnggcIDwd6Vxd4YMCmTYJfpTTQ==&uniplatform=NZKPT&language=CHS"
+  },
+  {
+    "title": "基于LLM翻译与差分测试的跨语言编译器模糊测试",
+    "authors": "李岩; 杨文章; 薛吟兴",
+    "journal": "信息网络安全",
+    "date": "2026-04-10",
+    "citations": "",
+    "downloads": "32",
+    "url": "https://kns.cnki.net/kcms2/article/abstract?v=niGKtOOGHVfzzWchAE0eARqBSplWEYsVx65eXheXnuWQU17JZnmoitxQzr7ZLULYoUzZPEVS8XOjOeBQFUrLGltDnjC-_bND_tOdzVorYCkDGmzHtFjicwdels8p6N0xyGXRBT5D5nhM_pompSQRJ6YtC60pjjpb_kE7YlBVVWBbxQMH-sTypQ==&uniplatform=NZKPT&language=CHS"
+  },
+  {
+    "title": "HisFuzz：基于历史缺陷的通用模糊测试用例生成方法",
+    "authors": "谢丽霞; 晏阳维; 杨宏宇",
+    "journal": "计算机应用研究",
+    "date": "2026-03-25",
+    "citations": "",
+    "downloads": "70",
+    "url": "https://kns.cnki.net/kcms2/article/abstract?v=niGKtOOGHVe7GEV3cSYTbOA4Ke-2cRLTS1k4EyT4GpWfVNFI84YnCtBKa5bdB2R9QMKaJsmZJ0ZWNwqgtTLYiy3j2q6w9DW4U3fipVq2PJloKo9XtwoFTZFxEXczBzSQOBN-bsZGUEZAm_jwrbyb8uK24pF9wS-ZT9sapDHTkCu8bP0gK2gA1Q==&uniplatform=NZKPT&language=CHS"
+  },
+  {
+    "title": "Cuda-Gen：一种基于API知识图覆盖驱动的CUDA模糊测试框架",
+    "authors": "宋霁洋; 范希明; 高心怡; 丁雪川; 雷琦; 方勇",
+    "journal": "四川大学学报(自然科学版)",
+    "date": "2026-03-17",
+    "citations": "",
+    "downloads": "78",
+    "url": "https://kns.cnki.net/kcms2/article/abstract?v=niGKtOOGHVdFcswNWNvbkGdGoMRBTJq20WyasENBIRS3wESZv6VnQIACjjNZcBAK8aNecY93KVv5a0GuhumCsxwX2zmpWWtMyfoWLEU_nhZGjxDypHsXA-8G6SnEa2WD_4pkEBdRVG8CF9EnNrX_UvBxfv4CoPco7Fu6zL3hqD5XayHwbe65Uw==&uniplatform=NZKPT&language=CHS"
+  },
+  {
+    "title": "基于隔离式变异的密码学函数库模糊测试方法研究",
+    "authors": "周奕飞; 宁帅宇; 吴礼发",
+    "journal": "软件工程",
+    "date": "2026-03-05",
+    "citations": "",
+    "downloads": "14",
+    "url": "https://kns.cnki.net/kcms2/article/abstract?v=niGKtOOGHVcQyo4TJlLlNdG8t3gHBcPpxhUoKBRFb3T8rRBN5AEtwVQfcOqOKpV9FvSkGFkatOJMAC7fGuVaLAG3JPDlHNPxbKKZpvxbv3XQIFSAw7OxrmwniKi4jZXfUXkDjE4xM6j4iATcHvYKIjTERnQKzaDGrjoPDSFOFTt_x7T4DsB6Dw==&uniplatform=NZKPT&language=CHS"
+  },
+  {
+    "title": "基于线程执行序列反馈的模糊测试方法",
+    "authors": "王安祺; 陈哲; 殷家乐",
+    "journal": "计算机科学",
+    "date": "2026-03-16",
+    "citations": "",
+    "downloads": "26",
+    "url": "https://kns.cnki.net/kcms2/article/abstract?v=niGKtOOGHVfej8Ro7xrX42kvNQLx_Ugx_NcOMsIOCQFki8hm_gmPHnIMgQFrQk9b1zmjZhVijbm9ACdfh9aObL9lXv8ElH882NcERpEkhV_xWMa4Ak_pTgmw93qpilSanW-TzPZvSu1_EbCCcPZ3lt0hO0ZHgmicojXn925yIea02kLyFmO0xw==&uniplatform=NZKPT&language=CHS"
+  },
+  {
+    "title": "基于生成式大语言模型的库函数模糊测试技术研究",
+    "authors": "吴治霖",
+    "journal": "通信技术",
+    "date": "2026-03-20",
+    "citations": "",
+    "downloads": "13",
+    "url": "https://kns.cnki.net/kcms2/article/abstract?v=niGKtOOGHVflIPFLW1_-ngonsz_mOtzUHN51KgQMTdaED9hlzbYUM0-KIYnjw8BqiGyUSAFpMB5nfI9bxvtv2_6e34LPo45lK_mhvSz5wgZBALQGDJk97DLaS4qXeHcUJvY_aq1B9j0dOZgJfWVCF2LCFsnwXRmxHCkqPqcnX1dbB-3PGxFj6A==&uniplatform=NZKPT&language=CHS"
+  },
+  {
+    "title": "大模型漏洞挖掘技术综述",
+    "authors": "周利均; 颜智惠",
+    "journal": "通信技术",
+    "date": "2026-03-20",
+    "citations": "",
+    "downloads": "36",
+    "url": "https://kns.cnki.net/kcms2/article/abstract?v=niGKtOOGHVflIPFLW1_-ngonsz_mOtzUHN51KgQMTdaED9hlzbYUM0-KIYnjw8BquUif0Zf-PVhQ8CUEXb813r8mdxIifoYCLM2b3d5DU5duh-1Kf797CWqCddj3jpLUNyRs0-lxdd4rqQlSrLIUnPTz5_7j-g8_VUWxvGuWIlEtPBpXDECWPA==&uniplatform=NZKPT&language=CHS"
+  }
+]
