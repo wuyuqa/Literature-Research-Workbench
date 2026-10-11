@@ -7,10 +7,11 @@ codex plugin marketplace add https://github.com/wanshuiyin/Auto-claude-code-rese
 
 codex plugin add academic-research-skills --marketplace academic-research-skills --json
 codex plugin add aris --marketplace aris --json
+codex plugin add zotero --marketplace openai-curated-remote --json
+codex plugin add app-6a60df60877081919ad4a8109d27535d --marketplace openai-curated-remote --json
 
-Write-Host 'The following Codex-provided capabilities must be enabled in the same Codex account:'
-Write-Host '  Zotero, nature-skills, LaTeX, imagegen, presentations, image-svg-pptx-pro'
-Write-Host 'The Undermind connector must also be enabled; it is an app connector, not a local skill folder.'
+Write-Host 'Bundled skills include LaTeX, imagegen, presentations, nature figure checks, SVG/PPTX conversion and Zotero.'
+Write-Host 'The Undermind connector may require a one-time sign-in/connection in Codex.'
 
 $source = (Resolve-Path (Join-Path $PSScriptRoot '.')).Path
 $marketplace = Join-Path $source '.agents/plugins/marketplace.json'
