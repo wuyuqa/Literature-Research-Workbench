@@ -4,9 +4,11 @@ Write-Host 'Installing Research Workbench dependencies...'
 
 codex plugin marketplace add https://github.com/Imbad0202/academic-research-skills --ref main --json
 codex plugin marketplace add https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep --ref main --json
+codex plugin marketplace add https://github.com/zarazhangrui/frontend-slides --ref main --json
 
 codex plugin add academic-research-skills --marketplace academic-research-skills --json
 codex plugin add aris --marketplace aris --json
+codex plugin add frontend-slides --marketplace frontend-slides --json
 codex plugin add zotero --marketplace openai-curated-remote --json
 codex plugin add app-6a60df60877081919ad4a8109d27535d --marketplace openai-curated-remote --json
 

@@ -4,14 +4,12 @@
     {"name": "aris", "marketplace": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep", "reason": "ARIS idea, Wiki, LaTeX writing, figures and slides"},
     {"name": "zotero", "marketplace": "zotero@openai-curated-remote", "reason": "Zotero lookup, deduplication and import"},
     {"name": "nature-skills", "marketplace": "nature-skills", "reason": "figure quality checks"},
+    {"name": "frontend-slides", "marketplace": "https://github.com/zarazhangrui/frontend-slides", "reason": "editable HTML slide production"},
     {"name": "latex", "marketplace": "latex", "reason": "LaTeX diagnostics and compilation"}
   ],
   "connected_apps": [
     {"name": "Undermind", "plugin_id": "app-6a60df60877081919ad4a8109d27535d@openai-curated-remote", "required_for": "literature-researcher", "install": "Enable the Undermind app/connector in Codex"}
   ],
-  "optional_plugins": [
-    {"name": "frontend-slides", "reason": "editable HTML slide production when available"},
-    {"name": "image-svg-pptx-pro", "reason": "editable SVG/PPTX conversion"}
-  ],
+  "optional_plugins": [{"name": "image-svg-pptx-pro", "reason": "editable SVG/PPTX conversion"}],
   "excluded_capabilities": ["run experiments", "run fuzzers", "GPU jobs", "monitor experiments", "invent results"]
 }

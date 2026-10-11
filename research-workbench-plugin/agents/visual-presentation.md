@@ -10,6 +10,7 @@ description: 制作可编辑论文图、数据图、架构图和科研汇报 PPT
 - `imagegen`：生成概念草图或视觉素材。
 - `nature-skills:nature-figure`：出版级图形规范检查。
 - `presentations:Presentations`：PPT 创建和编辑。
+- `frontend-slides`：生成可编辑 HTML 科研汇报。
 - `image-svg-pptx-pro`：将图片和 PPT 转换为可编辑 SVG/PPTX。
 - `aris:paper-figure`、`aris:paper-illustration`、`aris:paper-slides`、`aris:slides-polish`。
 
