@@ -1,13 +1,11 @@
 {
   "name": "personal-research-workbench",
+  "owner": {"name": "Personal Research Workbench"},
   "plugins": [
     {
       "name": "literature-research-workbench",
-      "source": { "source": "local", "path": "./" },
-      "interface": {
-        "displayName": "Literature Research Workbench",
-        "shortDescription": "文献调研、Idea 架构、LaTeX 写作、科研绘图与汇报"
-      }
+      "source": ".",
+      "description": "Five-agent research workbench for literature, ideas, LaTeX manuscripts, figures and presentations."
     }
   ]
 }

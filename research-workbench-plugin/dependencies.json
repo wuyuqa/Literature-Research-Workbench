@@ -1,0 +1,17 @@
+{
+  "required_plugins": [
+    {"name": "academic-research-skills", "marketplace": "https://github.com/Imbad0202/academic-research-skills", "reason": "ARS literature review, planning, outline and reviewer modes"},
+    {"name": "aris", "marketplace": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep", "reason": "ARIS idea, Wiki, LaTeX writing, figures and slides"},
+    {"name": "zotero", "marketplace": "zotero@openai-curated-remote", "reason": "Zotero lookup, deduplication and import"},
+    {"name": "nature-skills", "marketplace": "nature-skills", "reason": "figure quality checks"},
+    {"name": "latex", "marketplace": "latex", "reason": "LaTeX diagnostics and compilation"}
+  ],
+  "connected_apps": [
+    {"name": "Undermind", "required_for": "literature-researcher", "install": "Enable the Undermind app/connector in Codex"}
+  ],
+  "optional_plugins": [
+    {"name": "frontend-slides", "reason": "editable HTML slide production when available"},
+    {"name": "image-svg-pptx-pro", "reason": "editable SVG/PPTX conversion"}
+  ],
+  "excluded_capabilities": ["run experiments", "run fuzzers", "GPU jobs", "monitor experiments", "invent results"]
+}

@@ -6,8 +6,8 @@ The packaged role skills refer to real skills and apps by name. This plugin does
 
 | Dependency | Used by | Source | License / note |
 |---|---|---|---|
-| ARIS | idea-architecture, manuscript-writing | https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep | MIT; use `research-lit`, `idea-creator`, `novelty-check`, `research-review`, `research-refine`, `experiment-plan`, `research-wiki`, `paper-writing`, and `rebuttal`. Do not enable execution skills. |
-| ARS | idea-architecture | https://github.com/Imbad0202/academic-research-skills | CC BY-NC 4.0; use `research-lit`, `idea-creator`, `novelty-check`, `research-review`, and `research-refine-pipeline`. Keep attribution and do not use for commercial distribution without checking the license. |
+| ARIS | idea-architecture, manuscript-writing | https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep | MIT; installed in Codex as `aris`. Use `aris:research-lit`, `aris:idea-creator`, `aris:novelty-check`, `aris:research-review`, `aris:research-refine`, `aris:experiment-plan`, `aris:research-wiki`, `aris:paper-plan`, `aris:paper-write`, `aris:paper-compile`, `aris:citation-audit`, `aris:paper-claim-audit`, and `aris:rebuttal`. Do not enable execution skills. |
+| ARS | idea-architecture | https://github.com/Imbad0202/academic-research-skills | CC BY-NC 4.0; installed in Codex as `academic-research-skills`. Codex exposes migrated skills such as `academic-research-skills:source-command-ars-lit-review`, `...ars-plan`, `...ars-outline`, and `...ars-reviewer`. Keep attribution and do not use for commercial distribution without checking the license. |
 | Frontend Slides | visual-presentation | https://github.com/zarazhangrui/frontend-slides | MIT; use the core frontend-slides skill for HTML presentations. |
 | Codex LaTeX | manuscript-writing | bundled `latex` plugin | Use `latex-compile` and `latex-doctor`; no additional TeX installation is assumed. |
 | Nature Figures | visual-presentation | installed `nature-skills` plugin | Use only the figure workflow; do not route manuscript prose through Nature-style writing. |

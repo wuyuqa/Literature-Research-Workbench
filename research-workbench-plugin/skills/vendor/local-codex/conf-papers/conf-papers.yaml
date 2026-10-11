@@ -1,0 +1,77 @@
+# conf-papers skill 专用配置（v2 — 适配用户的 4 个研究方向）
+# 用户研究方向：DDS 协议安全与模糊测试 / 模糊测试技术 / 具身智能系统安全 / 具身智能前沿
+
+# 感兴趣的关键词（用于从顶会论文中筛选）
+keywords:
+  # DDS / 中间件 / 协议安全
+  - "DDS"
+  - "Data Distribution Service"
+  - "RTPS"
+  - "publish-subscribe"
+  - "middleware fuzzing"
+  - "middleware security"
+  - "ROS2"
+  - "robot middleware"
+
+  # 模糊测试 / 漏洞挖掘
+  - "fuzzing"
+  - "fuzz testing"
+  - "coverage-guided"
+  - "AFL"
+  - "libFuzzer"
+  - "grammar-based fuzzing"
+  - "structure-aware fuzzing"
+  - "stateful fuzzing"
+  - "protocol fuzzing"
+  - "vulnerability discovery"
+  - "symbolic execution"
+  - "concolic"
+
+  # 具身智能 + 安全
+  - "embodied AI"
+  - "embodied agent"
+  - "embodied intelligence"
+  - "vision language action"
+  - "VLA"
+  - "robot learning"
+  - "robotic manipulation"
+  - "autonomous robot"
+  - "robot foundation model"
+  - "sim-to-real"
+  - "embodied AI security"
+  - "robot security"
+  - "cyber-physical security"
+  - "CPS security"
+  - "autonomous vehicle security"
+
+# 排除的关键词
+excluded_keywords:
+  - "workshop"
+  - "tutorial"
+  - "survey"
+  - "review"
+  - "3D reconstruction"
+
+# 默认搜索年份（命令行参数可覆盖）
+default_year: 2025
+
+# 默认搜索的会议（命令行参数可覆盖；安全 + 机器人）
+default_conferences:
+  - "USENIX Security"
+  - "CCS"
+  - "NDSS"
+  - "S&P"
+  - "ICRA"
+  - "IROS"
+  - "RSS"
+
+# 备用 / 跨学科会议（用户可手动指定）
+# 注释保留，备查
+# extra_conferences:
+#   - "ICLR"
+#   - "NeurIPS"
+#   - "ICML"
+#   - "CVPR"
+
+# 返回的论文数量
+top_n: 10
