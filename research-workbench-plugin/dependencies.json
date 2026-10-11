@@ -7,7 +7,7 @@
     {"name": "latex", "marketplace": "latex", "reason": "LaTeX diagnostics and compilation"}
   ],
   "connected_apps": [
-    {"name": "Undermind", "required_for": "literature-researcher", "install": "Enable the Undermind app/connector in Codex"}
+    {"name": "Undermind", "plugin_id": "app-6a60df60877081919ad4a8109d27535d@openai-curated-remote", "required_for": "literature-researcher", "install": "Enable the Undermind app/connector in Codex"}
   ],
   "optional_plugins": [
     {"name": "frontend-slides", "reason": "editable HTML slide production when available"},
