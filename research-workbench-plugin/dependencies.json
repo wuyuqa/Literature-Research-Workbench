@@ -10,6 +10,7 @@
   "connected_apps": [
     {"name": "Undermind", "plugin_id": "app-6a60df60877081919ad4a8109d27535d@openai-curated-remote", "required_for": "literature-researcher", "install": "Enable the Undermind app/connector in Codex"}
   ],
+  "bundled_skills": ["literature-search", "zotero", "ars", "aris", "nature-figure", "latex", "imagegen", "presentations", "frontend-slides", "image-svg-pptx-pro"],
   "optional_plugins": [{"name": "image-svg-pptx-pro", "reason": "editable SVG/PPTX conversion"}],
   "excluded_capabilities": ["run experiments", "run fuzzers", "GPU jobs", "monitor experiments", "invent results"]
 }
