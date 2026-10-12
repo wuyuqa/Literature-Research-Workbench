@@ -430,7 +430,7 @@ def _load_s2_api_key() -> str:
     try:
         import yaml  # type: ignore
         ri_path = Path(
-            r"E:\obsidian_note\文献管理库\文献知识库\99_System\Config\research_interests.yaml"
+            r"<vault_root>/99_System/Config/research_interests.yaml"
         )
         if not ri_path.exists():
             return os.environ.get("SEMANTIC_SCHOLAR_API_KEY", "")
@@ -699,7 +699,7 @@ def load_external_json(path: str, source_tag: str) -> dict:
 
 
 ACADEMIC_AGENT_CONFIG_PATH = Path(
-    r"E:\obsidian_note\文献管理库\文献知识库\99_System\Config\academic_agent.yaml"
+    r"<vault_root>/config/academic_agent.yaml"
 )
 
 

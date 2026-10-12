@@ -429,9 +429,8 @@ def _load_s2_api_key() -> str:
     """从 research_interests.yaml 读取 S2 API key（容忍缺失）。"""
     try:
         import yaml  # type: ignore
-        ri_path = Path(
-            r"E:\obsidian_note\文献管理库\文献知识库\99_System\Config\research_interests.yaml"
-        )
+        vault_root = os.environ.get("RESEARCH_VAULT_ROOT", "")
+        ri_path = Path(vault_root) / "99_System" / "Config" / "research_interests.yaml" if vault_root else Path("__missing_research_interests__.yaml")
         if not ri_path.exists():
             return os.environ.get("SEMANTIC_SCHOLAR_API_KEY", "")
         with ri_path.open("r", encoding="utf-8") as f:
@@ -699,7 +698,7 @@ def load_external_json(path: str, source_tag: str) -> dict:
 
 
 ACADEMIC_AGENT_CONFIG_PATH = Path(
-    r"E:\obsidian_note\文献管理库\文献知识库\99_System\Config\academic_agent.yaml"
+    r"<vault_root>/config/academic_agent.yaml"
 )
 
 

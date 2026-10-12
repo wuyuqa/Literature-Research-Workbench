@@ -42,7 +42,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 # 1. 读取配置（必读，不得硬编码）
-cfg_path = Path(r"E:\obsidian_note\文献管理库\文献知识库\99_System\Config\academic_agent.yaml")
+cfg_path = Path(r"<vault_root>/config/academic_agent.yaml")
 with cfg_path.open("r", encoding="utf-8") as f:
     cfg = yaml.safe_load(f)
 
@@ -138,7 +138,7 @@ python "$SKILL_DIR/scripts/scan_existing_notes.py" \
 ```python
 import json, pathlib
 gs_raw = {...}   # evaluate_script 返回的对象
-pathlib.Path(r"C:\Users\86159\.claude\skills\start-my-day\gs_results.json").write_text(
+pathlib.Path(r"<codex_skills>/start-my-day\gs_results.json").write_text(
     json.dumps(gs_raw, ensure_ascii=False, indent=2), encoding="utf-8")
 ```
 
@@ -158,7 +158,7 @@ pathlib.Path(r"C:\Users\86159\.claude\skills\start-my-day\gs_results.json").writ
 
 ```python
 cnki_results = [...]  # cnki-parse-results 返回的列表
-pathlib.Path(r"C:\Users\86159\.claude\skills\start-my-day\cnki_results.json").write_text(
+pathlib.Path(r"<codex_skills>/start-my-day\cnki_results.json").write_text(
     json.dumps(cnki_results, ensure_ascii=False, indent=2), encoding="utf-8")
 ```
 
@@ -206,7 +206,7 @@ python "$SKILL_DIR/scripts/search_multi_source.py" \
 >
 > ```python
 > import os, datetime
-> bbt_dir = r"E:\obsidian_note\文献管理库\文献知识库\better-bibtex"
+> bbt_dir = r"<vault_root>/better-bibtex"
 > files = [f for f in os.listdir(bbt_dir) if f.endswith(".json")]
 > if not files:
 >     print("⚠️ BBT JSON 不存在，请在 Zotero 中导出：文件 → 导出文献库 → Better BibTeX JSON → 保存到 better-bibtex/")
@@ -289,14 +289,14 @@ import json, yaml
 from pathlib import Path
 
 # 1. 读取精读数量
-cfg_path = Path(r"E:\obsidian_note\文献管理库\文献知识库\99_System\Config\academic_agent.yaml")
+cfg_path = Path(r"<vault_root>/config/academic_agent.yaml")
 with cfg_path.open("r", encoding="utf-8") as f:
     cfg = yaml.safe_load(f)
 TOP_N_DETAILED = cfg.get("weekly", {}).get("top_n_detailed", 1)  # 默认 1
 
 # 2. 从 merged_dedupped.json 读取已排序的论文列表
 # （由步骤 5 Zotero 去重后生成，filtered 列表按 scores.overall 降序）
-dedup_path = Path(r"C:\Users\86159\.claude\skills\start-my-day\merged_dedupped.json")
+dedup_path = Path(r"<codex_skills>/start-my-day\merged_dedupped.json")
 with dedup_path.open("r", encoding="utf-8") as f:
     dedup = json.load(f)
 
