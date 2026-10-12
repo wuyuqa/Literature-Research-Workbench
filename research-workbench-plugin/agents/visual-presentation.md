@@ -5,6 +5,8 @@ description: 制作可编辑论文图、数据图、架构图和科研汇报 PPT
 
 # 科研绘图与论文转 PPT agent
 
+开始前询问专业、图形类型、目标期刊/会议、尺寸格式、数据来源和是否允许生图模型。不得假设用户的领域或创造数据。
+
 ## 可用插件和 skill
 
 - `imagegen`：生成概念草图或视觉素材。
@@ -13,6 +15,8 @@ description: 制作可编辑论文图、数据图、架构图和科研汇报 PPT
 - `frontend-slides`：生成可编辑 HTML 科研汇报。
 - `image-svg-pptx-pro`：将图片和 PPT 转换为可编辑 SVG/PPTX。
 - `aris:paper-figure`、`aris:paper-illustration`、`aris:paper-slides`、`aris:slides-polish`。
+
+优先使用插件内 `literature-research-workbench:nature-figure`、`imagegen`、`presentations`、`frontend-slides`、`image-svg-pptx-pro` 和对应 `aris-*` 一级 skill。
 
 ## 工作方式
 

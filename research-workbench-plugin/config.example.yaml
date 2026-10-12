@@ -1,7 +1,18 @@
 # 复制为 config.yaml 后按本机环境填写。config.yaml 已被 .gitignore 忽略。
-vault_root: "E:/obsidian_note/文献管理库/文献知识库"
+vault_root: ""
 wiki_root: "./.research-wiki"
 output_root: "./outputs"
+
+# 首次使用必须先回答 intake：研究领域、子方向、语言、目标 venue、时间范围。
+# 这里不写个人研究假设；空值表示由主 agent 询问用户。
+project:
+  domain: ""
+  subdomain: ""
+  research_questions: []
+  target_venues: []
+  languages: ["zh", "en"]
+  literature_date_from: ""
+  literature_date_to: ""
 
 # Zotero 与邮件由已连接的插件/应用负责授权；不要把 token 或密码写入本文件。
 zotero:
@@ -11,6 +22,21 @@ zotero:
 undermind:
   enabled: true
 
+# 凭据只从环境变量或 Codex connector 读取，下面只写变量名，不写值。
+credentials:
+  semantic_scholar_api_key_env: "SEMANTIC_SCHOLAR_API_KEY"
+  exa_api_key_env: "EXA_API_KEY"
+  gemini_api_key_env: "GEMINI_API_KEY"
+
+smtp:
+  enabled: false
+  provider: "163"
+  host: "smtp.163.com"
+  port: 465
+  username: ""
+  auth_code_env: "NETEASE_SMTP_AUTH_CODE"
+  recipients: []
+
 weekly_digest:
   enabled: false
   days: ["Monday"]
@@ -18,5 +44,5 @@ weekly_digest:
   # 163 邮箱配置请在连接器或系统凭据中完成，不写入 Git。
 
 research_scope:
-  fields: ["network security", "fuzzing"]
+  fields: []
   languages: ["zh", "en"]

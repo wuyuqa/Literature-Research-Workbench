@@ -1,6 +1,23 @@
 # 旁挂式 Research Wiki
 
-Wiki 用 Markdown 保存结构化研究实体，不改变现有笔记目录。默认目录由 `config.yaml` 的 `wiki_root` 指定。
+Wiki 用 Markdown 保存结构化研究实体。首次运行 setup 会在 `wiki_root` 下建立下面的文件夹架构；默认使用插件旁路目录 `.research-wiki/`，因此不会移动或重命名现有笔记。用户也可以在 intake 后把 `wiki_root` 指向一个新建的知识库目录。
+
+## 文件夹架构
+
+```text
+<wiki_root>/
+├── 00_System/          # index、配置快照、agent 交接和审计记录
+├── 01_Literature/      # papers、阅读报告、来源和引用关系
+├── 02_Themes/          # 主题、方法谱系、研究现状和 gap
+├── 03_Ideas/           # idea、proposal、淘汰记录
+├── 04_ExperimentPlans/ # 只保存实验设计，不执行实验
+├── 05_Manuscripts/     # LaTeX 项目、章节草稿、审稿回复
+├── 06_Figures/         # 图形规格、源数据、SVG/HTML/PPTX
+├── 07_Presentations/   # 汇报 PPT 和 HTML slides
+└── 90_Reports/         # 周报、任务报告和交接摘要
+```
+
+每个实体使用 front matter、来源链接、创建日期和状态字段。agent 不把 token、SMTP 授权码、Zotero 私密库或实验结果凭据写入 Wiki。
 
 ## 实体
 

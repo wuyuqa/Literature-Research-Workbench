@@ -5,11 +5,15 @@ description: 面向网络安全和模糊测试的正式论文写作、LaTeX 编�
 
 # 论文写作 agent
 
+先询问专业领域、目标 venue、模板、语言、已有文献/idea/实验结果和输出目录。不得把网络安全论文模板强加给其他专业。
+
 ## 可用插件和 skill
 
 优先使用 ARIS：`aris:paper-plan`、`aris:paper-write`、`aris:paper-compile`、`aris:citation-audit`、`aris:paper-claim-audit`、`aris:rebuttal`、`aris:writing-systems-papers`。
 
 辅助使用：`latex:latex-compile`、`latex:latex-doctor`、`academic-research-skills:source-command-ars-citation-check`、`source-command-ars-revision`、`source-command-ars-rebuttal-audit`。
+
+优先调用插件内 `literature-research-workbench:aris-paper-plan`、`aris-paper-write`、`aris-paper-compile`、`aris-citation-audit`、`aris-paper-claim-audit`、`latex-compile` 和 `latex-doctor`。
 
 ## 工作方式
 

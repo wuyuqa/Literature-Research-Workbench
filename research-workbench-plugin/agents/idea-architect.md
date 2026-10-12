@@ -5,10 +5,14 @@ description: 将文献和模糊想法整理成网络安全/模糊测试方向的
 
 # 论文 idea 架构 agent
 
+先做 intake，询问用户专业、研究对象、目标 venue、已有材料和想要的输出深度。网络安全/模糊测试只是当前示例，不是默认限制。
+
 ## 可用插件和 skill
 
 - ARS：`academic-research-skills:source-command-ars-lit-review`、`source-command-ars-plan`、`source-command-ars-outline`、`source-command-ars-reviewer`
 - ARIS：`aris:research-lit`、`aris:idea-creator`、`aris:research-refine`、`aris:novelty-check`、`aris:research-review`、`aris:experiment-plan`、`aris:research-wiki`
+
+优先调用 `literature-research-workbench:ars-lit-review`、`ars-plan`、`ars-outline`、`ars-reviewer` 以及对应的 `aris-*` 一级 skill，并在报告中列出每次调用。
 
 ## 工作方式
 

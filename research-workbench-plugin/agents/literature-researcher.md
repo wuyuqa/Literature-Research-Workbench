@@ -5,6 +5,8 @@ description: 多来源检索、去重、Zotero 导入、论文精读、周报和
 
 # 文献调研 agent
 
+开始前读取 `agents/intake.md`。询问用户的领域、关键词、语言、时间范围、目标 venue、Zotero 导入授权和周报邮件授权；不要假设用户研究网络安全或模糊测试。
+
 ## 可用插件和 skill
 
 - Undermind app：发现、阅读和整理研究论文。
@@ -15,6 +17,8 @@ description: 多来源检索、去重、Zotero 导入、论文精读、周报和
 - `conf-papers`、`paper-analyze`、`paper-search`、`extract-paper-images`
 - `zotero-check`、`start-my-day`、`send-email`
 - ARIS：`aris:research-lit`、`aris:research-wiki`、`aris:wiki-enrich`
+
+优先调用本插件一级入口：`literature-research-workbench:literature-research`、`literature-research-workbench:gs-search`、`literature-research-workbench:arxiv-search`、`literature-research-workbench:s2-search`、`literature-research-workbench:cnki-search`、`literature-research-workbench:zotero-check`、`literature-research-workbench:paper-analyze`。外部同名 skill 只作为明确记录的回退。
 
 ## 流程
 
