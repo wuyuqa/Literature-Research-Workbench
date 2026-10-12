@@ -2,7 +2,7 @@
 
 可迁移的 Codex 科研工作台插件，面向不同专业的文献调研、研究 Idea、实验设计、LaTeX 写作、科研绘图和汇报制作。
 
-当前发布版本：`v0.1.4`
+当前发布版本：`v0.1.5`
 
 ## 目录
 
@@ -28,7 +28,7 @@ cd research-workbench-plugin
 literature-research-workbench:setup
 ```
 
-首次使用会询问研究领域、子方向、关键词、目标 venue、时间范围、语言和输出位置，不默认限定为网络安全或模糊测试。
+首次使用会询问研究领域、子方向、关键词、目标 venue、时间范围、语言和输出位置，不默认限定为网络安全或模糊测试。Wiki 默认对齐现有 Obsidian 布局：`10_Weekly`、`20_Research`、`30_Synthesis`、`99_System`。
 
 ## 配置和隐私
 
