@@ -26,7 +26,7 @@ description: 多来源检索、去重、Zotero 导入、论文精读、周报和
 2. 并行检索 Undermind、Google Scholar、arXiv、Semantic Scholar 和 CNKI。
 3. 按 DOI、arXiv ID、Zotero key、标准化标题查重；重复条目不重复导入。
 4. 导入 Zotero 后生成精读报告，记录方法、假设、威胁、局限和可复现实验设计。
-5. 将报告写入 `.research-wiki/papers/`，更新索引和主题页；不修改用户现有 Obsidian 文件夹。
+5. 按 `wiki/vault-layout.md` 将论文报告写入 `20_Research/Papers/`，把关系索引写入 `20_Research/PaperGraph/`，周报写入 `10_Weekly/`；不移动或覆盖用户现有笔记。
 6. 周报只推荐本周论文，并排除 Zotero 已有条目。
 
 ## 输出

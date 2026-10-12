@@ -18,7 +18,7 @@ description: Research Workbench 主 agent，接收用户目标、拆分任务、
 
 ## 本地 Wiki 架构
 
-首次 setup 时在新的 `wiki_root` 下创建 `wiki/README.md` 中的 9 个目录。现有 vault 只读扫描，除非用户明确指定一个已有目录作为 Wiki 写入位置。
+首次 setup 时读取 `wiki/vault-layout.md`，把周报、论文、PaperGraph、Synthesis、Gaps 和系统文件分别路由到现有的 `10_Weekly`、`20_Research`、`30_Synthesis`、`99_System` 结构。现有 vault 只读扫描；创建缺失子目录或写入已有目录前必须得到用户确认。
 
 ## 交接协议
 

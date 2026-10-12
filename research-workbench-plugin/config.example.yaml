@@ -1,7 +1,21 @@
 # 复制为 config.yaml 后按本机环境填写。config.yaml 已被 .gitignore 忽略。
 vault_root: ""
-wiki_root: "./.research-wiki"
-output_root: "./outputs"
+# 与现有 Obsidian 顶层布局对齐。setup 只在用户确认后写入这些目录。
+wiki_mode: "mirror-vault-layout"
+wiki_root: ""
+output_root: ""
+
+vault_layout:
+  weekly: "10_Weekly"
+  research: "20_Research"
+  literature: "20_Research/Papers"
+  paper_graph: "20_Research/PaperGraph"
+  synthesis: "30_Synthesis"
+  gaps: "30_Synthesis/Gaps"
+  system: "99_System"
+  config: "99_System/Config"
+  temp: "99_System/Temp"
+  tmp: "99_System/tmp"
 
 # 首次使用必须先回答 intake：研究领域、子方向、语言、目标 venue、时间范围。
 # 这里不写个人研究假设；空值表示由主 agent 询问用户。

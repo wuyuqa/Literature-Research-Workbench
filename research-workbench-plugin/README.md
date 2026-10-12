@@ -2,7 +2,7 @@
 
 这是一个可适配不同专业的 Codex 科研工作台插件包，包含 5 个协作角色：主控编排、文献调研与知识库、Idea 与实验设计、ARIS 论文写作、科研绘图与汇报。网络安全与模糊测试只是当前示例方向，首次使用会先询问用户专业和研究目标。
 
-插件默认采用旁挂式 Wiki：setup 会在插件目录下的 `.research-wiki/` 创建结构化文件夹，不会移动、重命名或覆盖现有 Obsidian 笔记。Wiki 架构见 [wiki/README.md](wiki/README.md)；用户也可以在 intake 后把 `wiki_root` 指向一个新建目录。
+插件默认镜像当前 Obsidian 布局：`10_Weekly`、`20_Research`、`30_Synthesis`、`99_System`。setup 会先检查并询问后再创建缺失子目录，不会移动、重命名或覆盖现有笔记。Wiki 架构见 [wiki/README.md](wiki/README.md) 和 [wiki/vault-layout.md](wiki/vault-layout.md)。用户也可以切换到独立旁路 Wiki。
 
 ## 目录
 
@@ -103,7 +103,7 @@ codex plugin add literature-research-workbench --marketplace personal-research-w
 
 详细的上游版本、许可证、可用性和实验执行边界见 [DEPENDENCIES.md](DEPENDENCIES.md)。
 
-GitHub 上传前请阅读 [SECURITY.md](SECURITY.md) 和 [GITHUB_UPLOAD.md](GITHUB_UPLOAD.md)。推荐上传版本为 `v0.1.4`，只上传本插件目录，不上传整个 Obsidian 知识库。
+GitHub 上传前请阅读 [SECURITY.md](SECURITY.md) 和 [GITHUB_UPLOAD.md](GITHUB_UPLOAD.md)。推荐上传版本为 `v0.1.5`，只上传本插件目录，不上传整个 Obsidian 知识库。
 
 ## Git 提交
 

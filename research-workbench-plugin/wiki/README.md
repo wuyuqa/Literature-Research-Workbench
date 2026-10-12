@@ -1,21 +1,29 @@
 # 旁挂式 Research Wiki
 
-Wiki 用 Markdown 保存结构化研究实体。首次运行 setup 会在 `wiki_root` 下建立下面的文件夹架构；默认使用插件旁路目录 `.research-wiki/`，因此不会移动或重命名现有笔记。用户也可以在 intake 后把 `wiki_root` 指向一个新建的知识库目录。
+Wiki 用 Markdown 保存结构化研究实体。插件默认镜像现有 Obsidian 顶层布局，不再另造一套平行的顶层目录。setup 会先检查目录是否存在，并在用户确认后只创建缺失的子目录；不会移动、重命名或覆盖已有笔记。
 
-## 文件夹架构
+## 当前知识库布局映射
 
 ```text
-<wiki_root>/
-├── 00_System/          # index、配置快照、agent 交接和审计记录
-├── 01_Literature/      # papers、阅读报告、来源和引用关系
-├── 02_Themes/          # 主题、方法谱系、研究现状和 gap
-├── 03_Ideas/           # idea、proposal、淘汰记录
-├── 04_ExperimentPlans/ # 只保存实验设计，不执行实验
-├── 05_Manuscripts/     # LaTeX 项目、章节草稿、审稿回复
-├── 06_Figures/         # 图形规格、源数据、SVG/HTML/PPTX
-├── 07_Presentations/   # 汇报 PPT 和 HTML slides
-└── 90_Reports/         # 周报、任务报告和交接摘要
+<vault_root>/
+├── 10_Weekly/                 # 周报、每周推荐、邮件草稿
+├── 20_Research/
+│   ├── Papers/                # 论文元数据、精读报告、引用资料
+│   └── PaperGraph/            # 论文/主题/方法关系图和索引
+├── 30_Synthesis/
+│   ├── Gaps/                  # 研究空白、主题综合和 gap 分析
+│   └── <project-folders>/     # 已有项目目录保持原样
+└── 99_System/
+    ├── Config/               # 本地配置和环境说明
+    ├── Temp/                 # 可清理的中间产物
+    └── tmp/                  # 工具临时文件
 ```
+
+详细映射见 [vault-layout.md](vault-layout.md)。
+
+## 旁路模式（可选）
+
+如果用户不希望写入现有 vault，可把 `wiki_mode` 改为 `sidecar`，再把 `wiki_root` 指向插件目录下的 `.research-wiki/`。
 
 每个实体使用 front matter、来源链接、创建日期和状态字段。agent 不把 token、SMTP 授权码、Zotero 私密库或实验结果凭据写入 Wiki。
 
