@@ -103,7 +103,7 @@ codex plugin add literature-research-workbench --marketplace personal-research-w
 
 详细的上游版本、许可证、可用性和实验执行边界见 [DEPENDENCIES.md](DEPENDENCIES.md)。
 
-GitHub 上传前请阅读 [SECURITY.md](SECURITY.md) 和 [GITHUB_UPLOAD.md](GITHUB_UPLOAD.md)。推荐上传版本为 `v0.1.3`，只上传本插件目录，不上传整个 Obsidian 知识库。
+GitHub 上传前请阅读 [SECURITY.md](SECURITY.md) 和 [GITHUB_UPLOAD.md](GITHUB_UPLOAD.md)。推荐上传版本为 `v0.1.4`，只上传本插件目录，不上传整个 Obsidian 知识库。
 
 ## Git 提交
 

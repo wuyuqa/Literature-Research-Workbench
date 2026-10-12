@@ -1,6 +1,6 @@
 # GitHub 上传清单
 
-建议上传版本：`v0.1.3`（当前插件 manifest 版本）。上传对象只选 `research-workbench-plugin/`，不要把整个 Obsidian 知识库作为插件仓库上传。
+建议上传版本：`v0.1.4`（当前插件 manifest 版本）。上传对象只选 `research-workbench-plugin/`，不要把整个 Obsidian 知识库作为插件仓库上传。
 
 上传前：
 
@@ -12,7 +12,7 @@
 ```powershell
 git add research-workbench-plugin
 git commit -m "Release literature research workbench 0.1.2"
-git tag v0.1.3
+git tag v0.1.4
 git push origin master --tags
 ```
 
